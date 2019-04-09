@@ -34,7 +34,7 @@ function removeElementFromBeginningOfArray (array) {
   return rEFBOA;
 }
 
-function destructivelyRemoveElementFromBeginningOfArray (array) {
-  array.shift() 
+function destructivelyRemoveElementFromEndOfArray (array) {
+  array.pop() 
   return array;
 }
