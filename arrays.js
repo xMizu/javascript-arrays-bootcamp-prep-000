@@ -12,7 +12,7 @@ function destructivelyAddElementToBeginningOfArray (array, element) {
 
 function addElementToEndOfArray (array, element) {
   var aETEOF = [element,...array]
-  return aETBOF;
+  return aETEOF;
 }
 
 function destructivelyAddElementToEndOfArray (array, element) {
