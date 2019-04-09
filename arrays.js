@@ -11,7 +11,7 @@ function destructivelyAddElementToBeginningOfArray (array, element) {
 }
 
 function addElementToEndOfArray (array, element) {
-  var aETEOF = [element,...array]
+  var aETEOF = [...array,element]
   return aETEOF;
 }
 
