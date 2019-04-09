@@ -29,3 +29,7 @@ function destructivelyRemoveElementFromBeginningOfArray (array) {
   return array;
 }
 
+function addElementToBeginningOfArray (array, element) {
+  var aETBOF = [element,...array]
+  return aETBOF;
+}
