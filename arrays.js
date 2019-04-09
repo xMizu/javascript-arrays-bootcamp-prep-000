@@ -10,6 +10,12 @@ function destructivelyAddElementToBeginningOfArray (array, element) {
   return array
 }
 
-function addElementToBeginningOfArray (array, element) {
-  var aETBOF = [element,...array]
+function addElementToEndOfArray (array, element) {
+  var aETEOF = [element,...array]
   return aETBOF;
+}
+
+function destructivelyAddElementToBeginningOfArray (array, element) {
+  array.unshift(element)  
+  return array
+}
