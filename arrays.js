@@ -29,7 +29,7 @@ function destructivelyRemoveElementFromBeginningOfArray (array) {
   return array;
 }
 
-function removeElementFromBeginningOfArray (array, n) {
-  var aETBOF = [element,...array]
-  return aETBOF;
+function removeElementFromBeginningOfArray (array) {
+  var rEFBOA = array.slice(1)
+  return rEFBOA;
 }
